@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD502F0B2566601900853E7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD502F0A2566601900853E7E /* AppDelegate.swift */; };
+		BD502F0D2566601A00853E7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD502F0C2566601A00853E7E /* SceneDelegate.swift */; };
+		BD502F0F2566601A00853E7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD502F0E2566601A00853E7E /* ViewController.swift */; };
+		BD502F122566601A00853E7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD502F102566601A00853E7E /* Main.storyboard */; };
+		BD502F142566601C00853E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD502F132566601C00853E7E /* Assets.xcassets */; };
+		BD502F172566601C00853E7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD502F152566601C00853E7E /* LaunchScreen.storyboard */; };
+		BD502F222566601C00853E7E /* QTransformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD502F212566601C00853E7E /* QTransformTests.swift */; };
+		BD502F2D2566601C00853E7E /* QTransformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD502F2C2566601C00853E7E /* QTransformUITests.swift */; };
+		BD502F3B2566606800853E7E /* image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BD502F3A2566606700853E7E /* image.jpeg */; };
+		BD502F3F2566662F00853E7E /* CATransform3DController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD502F3E2566662F00853E7E /* CATransform3DController.swift */; };
+		BD502F412566663F00853E7E /* BezierPathController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD502F402566663F00853E7E /* BezierPathController.swift */; };
+		BD502F432566664F00853E7E /* BezierPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD502F422566664F00853E7E /* BezierPathView.swift */; };
+		BD502F452566666100853E7E /* AffineTransfromController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD502F442566666100853E7E /* AffineTransfromController.swift */; };
+		BD502F472566668100853E7E /* AffineTransfromView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD502F462566668100853E7E /* AffineTransfromView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD502F1E2566601C00853E7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD502EFF2566601900853E7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD502F062566601900853E7E;
+			remoteInfo = QTransform;
+		};
+		BD502F292566601C00853E7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD502EFF2566601900853E7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD502F062566601900853E7E;
+			remoteInfo = QTransform;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD502F072566601900853E7E /* QTransform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QTransform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD502F0A2566601900853E7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD502F0C2566601A00853E7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD502F0E2566601A00853E7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD502F112566601A00853E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD502F132566601C00853E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD502F162566601C00853E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD502F182566601C00853E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD502F1D2566601C00853E7E /* QTransformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTransformTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD502F212566601C00853E7E /* QTransformTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTransformTests.swift; sourceTree = "<group>"; };
+		BD502F232566601C00853E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD502F282566601C00853E7E /* QTransformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTransformUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD502F2C2566601C00853E7E /* QTransformUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QTransformUITests.swift; sourceTree = "<group>"; };
+		BD502F2E2566601C00853E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD502F3A2566606700853E7E /* image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpeg; sourceTree = "<group>"; };
+		BD502F3E2566662F00853E7E /* CATransform3DController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATransform3DController.swift; sourceTree = "<group>"; };
+		BD502F402566663F00853E7E /* BezierPathController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPathController.swift; sourceTree = "<group>"; };
+		BD502F422566664F00853E7E /* BezierPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPathView.swift; sourceTree = "<group>"; };
+		BD502F442566666100853E7E /* AffineTransfromController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffineTransfromController.swift; sourceTree = "<group>"; };
+		BD502F462566668100853E7E /* AffineTransfromView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffineTransfromView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD502F042566601900853E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD502F1A2566601C00853E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD502F252566601C00853E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD502EFE2566601900853E7E = {
+			isa = PBXGroup;
+			children = (
+				BD502F092566601900853E7E /* QTransform */,
+				BD502F202566601C00853E7E /* QTransformTests */,
+				BD502F2B2566601C00853E7E /* QTransformUITests */,
+				BD502F082566601900853E7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD502F082566601900853E7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD502F072566601900853E7E /* QTransform.app */,
+				BD502F1D2566601C00853E7E /* QTransformTests.xctest */,
+				BD502F282566601C00853E7E /* QTransformUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD502F092566601900853E7E /* QTransform */ = {
+			isa = PBXGroup;
+			children = (
+				BD502F3A2566606700853E7E /* image.jpeg */,
+				BD502F0A2566601900853E7E /* AppDelegate.swift */,
+				BD502F0C2566601A00853E7E /* SceneDelegate.swift */,
+				BD502F0E2566601A00853E7E /* ViewController.swift */,
+				BD502F3E2566662F00853E7E /* CATransform3DController.swift */,
+				BD502F402566663F00853E7E /* BezierPathController.swift */,
+				BD502F422566664F00853E7E /* BezierPathView.swift */,
+				BD502F442566666100853E7E /* AffineTransfromController.swift */,
+				BD502F462566668100853E7E /* AffineTransfromView.swift */,
+				BD502F102566601A00853E7E /* Main.storyboard */,
+				BD502F132566601C00853E7E /* Assets.xcassets */,
+				BD502F152566601C00853E7E /* LaunchScreen.storyboard */,
+				BD502F182566601C00853E7E /* Info.plist */,
+			);
+			path = QTransform;
+			sourceTree = "<group>";
+		};
+		BD502F202566601C00853E7E /* QTransformTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD502F212566601C00853E7E /* QTransformTests.swift */,
+				BD502F232566601C00853E7E /* Info.plist */,
+			);
+			path = QTransformTests;
+			sourceTree = "<group>";
+		};
+		BD502F2B2566601C00853E7E /* QTransformUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD502F2C2566601C00853E7E /* QTransformUITests.swift */,
+				BD502F2E2566601C00853E7E /* Info.plist */,
+			);
+			path = QTransformUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD502F062566601900853E7E /* QTransform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD502F312566601C00853E7E /* Build configuration list for PBXNativeTarget "QTransform" */;
+			buildPhases = (
+				BD502F032566601900853E7E /* Sources */,
+				BD502F042566601900853E7E /* Frameworks */,
+				BD502F052566601900853E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTransform;
+			productName = QTransform;
+			productReference = BD502F072566601900853E7E /* QTransform.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD502F1C2566601C00853E7E /* QTransformTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD502F342566601C00853E7E /* Build configuration list for PBXNativeTarget "QTransformTests" */;
+			buildPhases = (
+				BD502F192566601C00853E7E /* Sources */,
+				BD502F1A2566601C00853E7E /* Frameworks */,
+				BD502F1B2566601C00853E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD502F1F2566601C00853E7E /* PBXTargetDependency */,
+			);
+			name = QTransformTests;
+			productName = QTransformTests;
+			productReference = BD502F1D2566601C00853E7E /* QTransformTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD502F272566601C00853E7E /* QTransformUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD502F372566601C00853E7E /* Build configuration list for PBXNativeTarget "QTransformUITests" */;
+			buildPhases = (
+				BD502F242566601C00853E7E /* Sources */,
+				BD502F252566601C00853E7E /* Frameworks */,
+				BD502F262566601C00853E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD502F2A2566601C00853E7E /* PBXTargetDependency */,
+			);
+			name = QTransformUITests;
+			productName = QTransformUITests;
+			productReference = BD502F282566601C00853E7E /* QTransformUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD502EFF2566601900853E7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Bepa;
+				TargetAttributes = {
+					BD502F062566601900853E7E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					BD502F1C2566601C00853E7E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BD502F062566601900853E7E;
+					};
+					BD502F272566601C00853E7E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BD502F062566601900853E7E;
+					};
+				};
+			};
+			buildConfigurationList = BD502F022566601900853E7E /* Build configuration list for PBXProject "QTransform" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD502EFE2566601900853E7E;
+			productRefGroup = BD502F082566601900853E7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD502F062566601900853E7E /* QTransform */,
+				BD502F1C2566601C00853E7E /* QTransformTests */,
+				BD502F272566601C00853E7E /* QTransformUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD502F052566601900853E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD502F172566601C00853E7E /* LaunchScreen.storyboard in Resources */,
+				BD502F3B2566606800853E7E /* image.jpeg in Resources */,
+				BD502F142566601C00853E7E /* Assets.xcassets in Resources */,
+				BD502F122566601A00853E7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD502F1B2566601C00853E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD502F262566601C00853E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD502F032566601900853E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD502F412566663F00853E7E /* BezierPathController.swift in Sources */,
+				BD502F0F2566601A00853E7E /* ViewController.swift in Sources */,
+				BD502F432566664F00853E7E /* BezierPathView.swift in Sources */,
+				BD502F0B2566601900853E7E /* AppDelegate.swift in Sources */,
+				BD502F472566668100853E7E /* AffineTransfromView.swift in Sources */,
+				BD502F0D2566601A00853E7E /* SceneDelegate.swift in Sources */,
+				BD502F452566666100853E7E /* AffineTransfromController.swift in Sources */,
+				BD502F3F2566662F00853E7E /* CATransform3DController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD502F192566601C00853E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD502F222566601C00853E7E /* QTransformTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD502F242566601C00853E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD502F2D2566601C00853E7E /* QTransformUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD502F1F2566601C00853E7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD502F062566601900853E7E /* QTransform */;
+			targetProxy = BD502F1E2566601C00853E7E /* PBXContainerItemProxy */;
+		};
+		BD502F2A2566601C00853E7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD502F062566601900853E7E /* QTransform */;
+			targetProxy = BD502F292566601C00853E7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD502F102566601A00853E7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD502F112566601A00853E7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD502F152566601C00853E7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD502F162566601C00853E7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD502F2F2566601C00853E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD502F302566601C00853E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD502F322566601C00853E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AFUQANXQ56;
+				INFOPLIST_FILE = QTransform/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bepa.QTransform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD502F332566601C00853E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AFUQANXQ56;
+				INFOPLIST_FILE = QTransform/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bepa.QTransform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD502F352566601C00853E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AFUQANXQ56;
+				INFOPLIST_FILE = QTransformTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bepa.QTransformTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QTransform.app/QTransform";
+			};
+			name = Debug;
+		};
+		BD502F362566601C00853E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AFUQANXQ56;
+				INFOPLIST_FILE = QTransformTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bepa.QTransformTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QTransform.app/QTransform";
+			};
+			name = Release;
+		};
+		BD502F382566601C00853E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AFUQANXQ56;
+				INFOPLIST_FILE = QTransformUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bepa.QTransformUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QTransform;
+			};
+			name = Debug;
+		};
+		BD502F392566601C00853E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AFUQANXQ56;
+				INFOPLIST_FILE = QTransformUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bepa.QTransformUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QTransform;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD502F022566601900853E7E /* Build configuration list for PBXProject "QTransform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD502F2F2566601C00853E7E /* Debug */,
+				BD502F302566601C00853E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD502F312566601C00853E7E /* Build configuration list for PBXNativeTarget "QTransform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD502F322566601C00853E7E /* Debug */,
+				BD502F332566601C00853E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD502F342566601C00853E7E /* Build configuration list for PBXNativeTarget "QTransformTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD502F352566601C00853E7E /* Debug */,
+				BD502F362566601C00853E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD502F372566601C00853E7E /* Build configuration list for PBXNativeTarget "QTransformUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD502F382566601C00853E7E /* Debug */,
+				BD502F392566601C00853E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD502EFF2566601900853E7E /* Project object */;
+}
